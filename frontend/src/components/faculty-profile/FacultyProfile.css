@@ -1,0 +1,71 @@
+/* FacultyProfile.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  margin: 0;
+  flex-grow: 1;
+  color: #333;
+}
+
+.profile-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.profile-nav li {
+  margin-left: 20px;
+}
+
+.profile-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.profile-nav a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 10px 0;
+}

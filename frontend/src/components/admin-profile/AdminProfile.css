@@ -1,0 +1,26 @@
+/* src/components/admin-profile/AdminProfile.css */
+
+.admin-profile {
+  padding: 20px;
+}
+
+.admin-profile h2 {
+  color: #333;
+}
+
+.admin-profile .actions {
+  margin-top: 20px;
+}
+
+.admin-profile .actions button {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-profile .actions button:hover {
+  background-color: #555;
+}

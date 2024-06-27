@@ -1,0 +1,64 @@
+/* src/components/header/Header.css */
+
+header {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand .logo {
+  height: 40px; /* Adjust the height as needed */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #007bff;
+  transition: width 0.4s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  background-color: #007bff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #0056b3;
+  background-color: #e2e6ea;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-item .nav-link.home,
+.navbar-nav .nav-item .nav-link.login {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link.home:hover,
+.navbar-nav .nav-item .nav-link.login:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link.home::before,
+.navbar-nav .nav-item .nav-link.login::before {
+  content: '➡️';
+  margin-right: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link.home:hover::before,
+.navbar-nav .nav-item .nav-link.login:hover::before {
+  opacity: 1;
+}
