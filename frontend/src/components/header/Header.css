@@ -1,7 +1,7 @@
-/* src/components/header/Header.css */
+src/components/header/Header.css
 
 header {
-  background-color: #f8f9fa;
+  background-color: #faf9f8;
 }
 
 .navbar-brand .logo {
@@ -34,7 +34,7 @@ header {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #0056b3;
+  color: #b31e00;
   background-color: #e2e6ea;
   border-radius: 5px;
 }
@@ -46,7 +46,7 @@ header {
 
 .navbar-nav .nav-item .nav-link.home:hover,
 .navbar-nav .nav-item .nav-link.login:hover {
-  background-color: #007bff;
+  background-color: #666564;
   color: #fff;
 }
 
@@ -62,3 +62,4 @@ header {
 .navbar-nav .nav-item .nav-link.login:hover::before {
   opacity: 1;
 }
+
